@@ -1,0 +1,57 @@
+/* Use a unique class instead of overriding Bootstrap's .container */
+.register-container {
+  background-color: #f8f9fa; /* Light gray background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff; /* White card */
+  color: #333;               /* Dark text for readability */
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+.card h2 {
+  font-weight: 700;
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Form inputs */
+.form-control {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+/* Buttons */
+.btn-outline-light {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-light:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Link styling */
+.text-info {
+  color: #007bff !important;
+}
+
+.text-info:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+.appointment-container {
+  max-width: 850px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.appointment-container h2 {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.appointment-container .form-label {
+  font-weight: 500;
+}
+
+.appointment-container .btn-primary {
+  width: 100%;
+  padding: 0.6rem;
+  font-weight: 500;
+}
+
+.appointment-container .alert {
+  font-size: 1rem;
+}

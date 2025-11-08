@@ -1,0 +1,38 @@
+
+.hero-section {
+  background-color: rgba(255, 255, 255, 0.85); /* light overlay */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  color: #007bff;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card-hover {
+  transition: transform 0.2s ease;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.homepage-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(254, 252, 252, 0.1);
+}
