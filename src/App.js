@@ -42,7 +42,7 @@ function App() {
   <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
   <li className="nav-item"><Link className="nav-link" to="/appointment">Appointment</Link></li>
   <li className="nav-item"><Link className="nav-link" to="/doctor">Find a Doctor</Link></li>
-  <li className="nav-item"><Link className="nav-link" to="/test">Test</Link></li>
+  <li className="nav-item"><Link className="nav-link" to="/test">Book a Test</Link></li>
   <li className="nav-item"><Link className="nav-link" to="/medication">Medication</Link></li>
   <li className="nav-item"><Link className="nav-link" to="/service">Services</Link></li>
   <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
